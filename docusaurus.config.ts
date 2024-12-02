@@ -6,13 +6,10 @@ const config: Config = {
   title: "First, solve the problem.",
   favicon: 'img/logo.png',
 
-  // Prd Path
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
-  // Usually your GitHub org/user name.
-  organizationName: 'facebook',
-  // Usually your repo name.
-  projectName: 'docusaurus',
+  url: 'https://Dplo1514.gihub.io',
+  baseUrl: '/plo_official/',
+  organizationName: 'Dplo1514',
+  projectName: 'plo_official',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
