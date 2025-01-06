@@ -36,23 +36,27 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
-        // {
-        //   type: 'category',
-        //   label: '2. Tech Stack',
-        //   items: [
-        //     {
-        //       type: 'category',
-        //       label: '2-1. Elastic Search',
-        //       items: [
-        //         {
-        //           type: 'doc',
-        //           label: 'A. Elastic Search 개요',
-        //           id: 'company/tech-stack/elastic-search/elastic-search'
-        //         }
-        //       ]
-        //     }
-        //   ],
-        // }
+        {
+          type: 'category',
+          label: '2. Tech Stack',
+          items: [
+            {
+              type: 'category',
+              label: '2-1. Fast Api',
+              link: {
+                type: 'doc',
+                id: 'company/tech-stack/fast-api/fast-api',
+              },
+              items: [
+                // {
+                //   type: 'doc',
+                //   label: 'A. Fast API 개요',
+                //   id: 'company/tech-stack/fast-api/fast-api'
+                // }
+              ]
+            }
+          ],
+        }
       ]
     },
     // {
