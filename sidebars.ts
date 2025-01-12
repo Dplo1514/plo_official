@@ -34,6 +34,21 @@ const sidebars: SidebarsConfig = {
                 }
               ]
             },
+            {
+              type: 'category',
+              label: '1-2. ETL Pipeline',
+              link: {
+                type: 'doc',
+                id: 'company/r&d/etl-pipeline/etl-pipeline',
+              },
+              items: [
+                // {
+                //   type: 'doc',
+                //   label: 'A. RAG Agent',
+                //   id: 'company/r&d/ai-agent/rag-agent'
+                // }
+              ]
+            },
           ],
         },
         {
