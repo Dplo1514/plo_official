@@ -42,11 +42,11 @@ const sidebars: SidebarsConfig = {
                 id: 'company/r&d/etl-pipeline/etl-pipeline',
               },
               items: [
-                // {
-                //   type: 'doc',
-                //   label: 'A. RAG Agent',
-                //   id: 'company/r&d/ai-agent/rag-agent'
-                // }
+                {
+                  type: 'doc',
+                  label: 'A. Air flow',
+                  id: 'company/r&d/ai-agent/rag-agent'
+                }
               ]
             },
           ],
