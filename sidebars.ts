@@ -74,58 +74,58 @@ const sidebars: SidebarsConfig = {
         }
       ]
     },
-    // {
-    //   type: 'category',
-    //   label: '02_Study',
-    //   items:[
-    //       {
-    //         type: 'category',
-    //         label: '1. Language',
-    //         items: [
-    //           {
-    //             type: 'category',
-    //             label: '1-1. Java',
-    //             items: [
-    //               {
-    //                 type: 'category',
-    //                 label: 'A. JVM',
-    //                 items: [
-    //                   {
-    //                     type: 'doc',
-    //                     label: 'a. JVM Memory Structure',
-    //                     id: 'study/language/java/jvm-memory'
-    //                   }
-    //                 ]
-    //               }
-    //             ]
-    //           }
-    //         ],
-    //       },
-    //     {
-    //       type: 'category',
-    //       label: '2. AI',
-    //       items: [
-    //         {
-    //           type: 'category',
-    //           label: '2-1. RAG',
-    //           items: [
-    //             {
-    //               type: 'category',
-    //               label: 'A. JVM',
-    //               items: [
-    //                 {
-    //                   type: 'doc',
-    //                   label: 'a. JVM Memory Structure',
-    //                   id: 'study/language/java/jvm-memory'
-    //                 }
-    //               ]
-    //             }
-    //           ]
-    //         }
-    //       ],
-    //     },
-    //   ]
-    // },
+    {
+      type: 'category',
+      label: '02_Study',
+      items:[
+          {
+            type: 'category',
+            label: '1. Language',
+            items: [
+              {
+                type: 'category',
+                label: '1-1. Python',
+                items: [
+                  {
+                    type: 'category',
+                    label: 'A. Test',
+                    items: [
+                      {
+                        type: 'doc',
+                        label: 'a. Test Container',
+                        id: 'study/language/python/test-container'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+          },
+        // {
+        //   type: 'category',
+        //   label: '2. AI',
+        //   items: [
+        //     {
+        //       type: 'category',
+        //       label: '2-1. RAG',
+        //       items: [
+        //         {
+        //           type: 'category',
+        //           label: 'A. JVM',
+        //           items: [
+        //             {
+        //               type: 'doc',
+        //               label: 'a. JVM Memory Structure',
+        //               id: 'study/language/java/jvm-memory'
+        //             }
+        //           ]
+        //         }
+        //       ]
+        //     }
+        //   ],
+        // },
+      ]
+    },
   ]
 };
 
