@@ -15,42 +15,12 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '01_Company',
       items:[
-        {
-          type: 'category',
-          label: '1. R&D',
-          items: [
-            {
-              type: 'category',
-              label: '1-1. Multi Agent',
-              link: {
-                type: 'doc',
-                id: 'company/r&d/ai-agent/multi-agent-system',
-              },
-              items: [
-                {
-                  type: 'doc',
-                  label: 'A. RAG Agent',
-                  id: 'company/r&d/ai-agent/rag-agent'
-                }
-              ]
-            },
-            {
-              type: 'category',
-              label: '1-2. ETL Pipeline',
-              link: {
-                type: 'doc',
-                id: 'company/r&d/etl-pipeline/etl-pipeline',
-              },
-              items: [
-                {
-                  type: 'doc',
-                  label: 'A. Air flow',
-                  id: 'company/r&d/ai-agent/rag-agent'
-                }
-              ]
-            },
-          ],
-        },
+        // {
+        //   type: 'category',
+        //   label: '1. R&D',
+        //   items: [
+        //   ],
+        // },
         {
           type: 'category',
           label: '2. Tech Stack',
@@ -63,11 +33,11 @@ const sidebars: SidebarsConfig = {
                 id: 'company/tech-stack/fast-api/fast-api',
               },
               items: [
-                // {
-                //   type: 'doc',
-                //   label: 'A. Fast API 개요',
-                //   id: 'company/tech-stack/fast-api/fast-api'
-                // }
+                {
+                  type: 'doc',
+                  label: 'A. Fast API 개요',
+                  id: 'company/tech-stack/fast-api/fast-api'
+                }
               ]
             }
           ],
@@ -101,29 +71,59 @@ const sidebars: SidebarsConfig = {
               }
             ],
           },
-        // {
-        //   type: 'category',
-        //   label: '2. AI',
-        //   items: [
-        //     {
-        //       type: 'category',
-        //       label: '2-1. RAG',
-        //       items: [
-        //         {
-        //           type: 'category',
-        //           label: 'A. JVM',
-        //           items: [
-        //             {
-        //               type: 'doc',
-        //               label: 'a. JVM Memory Structure',
-        //               id: 'study/language/java/jvm-memory'
-        //             }
-        //           ]
-        //         }
-        //       ]
-        //     }
-        //   ],
-        // },
+        {
+          type: 'category',
+          label: '2. AI',
+          items: [
+            {
+              type: 'category',
+              label: '2-1. Multi Agent',
+              link: {
+                type: 'doc',
+                id: 'study/ai/system/multi-agent-system',
+              },
+              items: [
+                // {
+                //   type: 'doc',
+                //   label: 'A. ',
+                //   id: 'study/ai/system/multi-agent-system'
+                // }
+              ]
+            },
+            {
+              type: 'doc',
+              label: '2-2. Knowledge Base System',
+              id: 'study/ai/system/knowledge-base-system'
+            }
+          ],
+        },
+        {
+          type: 'category',
+          label: '3. DATA',
+          items: [
+            {
+              type: 'category',
+              label: '3-1. Pipeline',
+              items: [
+                {
+                  type: 'category',
+                  label: 'A. ETL Pipeline',
+                  link: {
+                    type: 'doc',
+                    id: 'study/data/pipeline/etl-pipeline',
+                  },
+                  items: [
+                    // {
+                    //   type: 'doc',
+                    //   label: 'A. Air flow',
+                    //   id: 'study/data/pipeline/air-flow'
+                    // }
+                  ]
+                }
+              ]
+            }
+          ],
+        },
       ]
     },
   ]
