@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: 'Vision',
-        png: 'img/01_introduce_removebg.png',
+        png: 'img/01_introduce.png',
         description: (
             <>
                 깊은 기술력을 가진
@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Tech',
-        png: 'img/02_tech_stack-removebg-preview.png',
+        png: 'img/02_tech_stack-preview.png',
         description: (
             <>
                 <strong>주 사용 기술 스택은 아래와 같습니다.</strong>

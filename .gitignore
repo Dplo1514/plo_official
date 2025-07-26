@@ -20,3 +20,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+
+# Documents
+docs/0_template.md

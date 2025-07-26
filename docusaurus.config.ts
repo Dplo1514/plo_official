@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: "First, solve the problem.",
-  favicon: 'img/logo.png',
+  favicon: 'img/00_logo.png',
 
   url: 'https://Dplo1514.gihub.io',
   baseUrl: '/plo_official/',
@@ -43,7 +43,7 @@ const config: Config = {
       title: 'Plo Tech Blog',
       logo: {
         alt: 'Plo Main Logo',
-        src: 'img/logo.png',
+        src: 'img/00_logo.png',
       },
       items: [
         {
