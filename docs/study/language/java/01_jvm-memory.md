@@ -1,1 +1,0 @@
-# JVM Memory Structure

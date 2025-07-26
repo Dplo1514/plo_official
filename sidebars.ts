@@ -1,132 +1,159 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  documentSidebar: [
-    {
-      type: 'category',
-      label: 'Intro',
-      link: {
-        type: 'doc',
-        id: 'intro',
-      },
-      items: []
-    },
-    {
-      type: 'category',
-      label: '01_Company',
-      items:[
-        // {
-        //   type: 'category',
-        //   label: '1. R&D',
-        //   items: [
-        //   ],
-        // },
+    documentSidebar: [
         {
-          type: 'category',
-          label: '2. Tech Stack',
-          items: [
-            {
-              type: 'category',
-              label: '2-1. Fast Api',
-              link: {
-                type: 'doc',
-                id: 'company/tech-stack/fast-api/fast-api',
-              },
-              items: [
-                {
-                  type: 'doc',
-                  label: 'A. Fast API 개요',
-                  id: 'company/tech-stack/fast-api/fast-api'
-                }
-              ]
-            }
-          ],
-        }
-      ]
-    },
-    {
-      type: 'category',
-      label: '02_Study',
-      items:[
-          {
             type: 'category',
-            label: '1. Language',
-            items: [
-              {
-                type: 'category',
-                label: '1-1. Python',
-                items: [
-                  {
-                    type: 'category',
-                    label: 'A. Test',
-                    items: [
-                      {
-                        type: 'doc',
-                        label: 'a. Test Container',
-                        id: 'study/language/python/test-container'
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-          },
-        {
-          type: 'category',
-          label: '2. AI',
-          items: [
-            {
-              type: 'category',
-              label: '2-1. Multi Agent',
-              link: {
+            label: 'Intro',
+            link: {
                 type: 'doc',
-                id: 'study/ai/system/multi-agent-system',
-              },
-              items: [
-                // {
-                //   type: 'doc',
-                //   label: 'A. ',
-                //   id: 'study/ai/system/multi-agent-system'
-                // }
-              ]
+                id: 'intro',
             },
-            {
-              type: 'doc',
-              label: '2-2. Knowledge Base System',
-              id: 'study/ai/system/knowledge-base-system'
-            }
-          ],
+            items: []
         },
         {
-          type: 'category',
-          label: '3. DATA',
-          items: [
-            {
-              type: 'category',
-              label: '3-1. Pipeline',
-              items: [
+            type: 'category',
+            label: '1. Series',
+            items: [
                 {
-                  type: 'category',
-                  label: 'A. ETL Pipeline',
-                  link: {
-                    type: 'doc',
-                    id: 'study/data/pipeline/etl-pipeline',
-                  },
-                  items: [
-                    // {
-                    //   type: 'doc',
-                    //   label: 'A. Air flow',
-                    //   id: 'study/data/pipeline/air-flow'
-                    // }
-                  ]
+                    type: 'category',
+                    label: '1-1. Orphan Data Cleansing',
+                    items: [
+                        {
+                            type: 'doc',
+                            label: '1. 문제 상황 정의',
+                            id: 'series/orphan_data_cleansing/problem',
+                        }
+                    ],
                 }
-              ]
-            }
-          ],
+            ]
         },
-      ]
-    },
-  ]
+        {
+            type: 'category',
+            label: '2. Study',
+            items: [
+                {
+                    type: 'category',
+                    label: '2-1. Tech',
+                    items: [
+                        {
+                            type: 'doc',
+                            label: '1. Test Container',
+                            id: 'study/tech/test-container'
+                        },
+                        {
+                            type: 'doc',
+                            label: '2. Fast Api',
+                            id: 'study/tech/fast-api'
+                        }
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: '2-2. AI',
+                    items: [
+                        {
+                            type: 'doc',
+                            label: '1. Knowledge Base System',
+                            id: 'study/ai/knowledge-base-system'
+                        },
+                        {
+                            type: 'doc',
+                            label: '2. Multi Agent',
+                            id: 'study/ai/multi-agent-system'
+                        }
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: '2-3. DATA',
+                    items: [
+                        {
+                            type: 'doc',
+                            label: '1. ETL Pipeline',
+                            id: 'study/data/etl-pipeline',
+                        },
+                        {
+                            type: 'doc',
+                            label: '2. Air Flow',
+                            id: 'study/data/air-flow',
+                        }
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: '2-4. CS',
+                    items: [
+                        {
+                            type: 'category',
+                            label: '2-4-1. Language',
+                            items: [
+                                {
+                                    type: 'doc',
+                                    label: '1. Compiler / Interpreter / JIT',
+                                    id: 'study/cs/programming_language/compiler_interpreter_jit',
+                                },
+                            ],
+                        },
+                        {
+                            type: 'category',
+                            label: '2-4-2. OS',
+                            items: [
+                                {
+                                    type: 'doc',
+                                    label: '1. Socket',
+                                    id: 'study/cs/os/socket',
+                                },
+                                {
+                                    type: 'doc',
+                                    label: '2. DeadLock & Concurrency Issue',
+                                    id: 'study/cs/os/deadLock&concurrencyIssue',
+                                },
+                                {
+                                    type: 'doc',
+                                    label: '3. Virtualization',
+                                    id: 'study/cs/os/virtualization',
+                                },
+                            ],
+                        },
+                        {
+                            type: 'category',
+                            label: '2-4-3. Algorithm',
+                            items: [
+                                {
+                                    type: 'doc',
+                                    label: '1. Dynamic Programming',
+                                    id: 'study/cs/algorithm/dynamic_programming',
+                                }
+                            ],
+                        },
+                        {
+                            type: 'category',
+                            label: '2-4-4. DB',
+                            items: [
+                                {
+                                    type: 'doc',
+                                    label: '1. Index',
+                                    id: 'study/cs/db/index',
+                                }
+                            ],
+                        }
+                    ],
+                },
+                {
+                    type: 'category',
+                    label: '2-5. Design Pattern',
+                    items: [
+                        {
+                            type: 'doc',
+                            label: '1. OOP SOLID',
+                            id: 'study/design_pattern/solid',
+                        }
+                    ],
+                },
+            ]
+        },
+    ]
 };
 
 export default sidebars;
