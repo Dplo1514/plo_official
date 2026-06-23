@@ -136,6 +136,23 @@ const sidebars: SidebarsConfig = {
                 },
             ]
         },
+        {
+            type: 'category',
+            label: '2. Fast Api',
+            items: [
+                {
+                    type: 'category',
+                    label: '2-1. FastAPI 실전 시리즈',
+                    items: [
+                        {
+                            type: 'doc',
+                            label: '1. Layered Architecture와 DI 패턴',
+                            id: 'fastapi/series/fast-api-layered'
+                        }
+                    ],
+                },
+            ]
+        },
     ]
 };
 
