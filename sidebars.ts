@@ -13,28 +13,11 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
-            label: '1. Series',
+            label: '1. Study',
             items: [
                 {
                     type: 'category',
-                    label: '1-1. Orphan Data Cleansing',
-                    items: [
-                        {
-                            type: 'doc',
-                            label: '1. 문제 상황 정의',
-                            id: 'series/orphan_data_cleansing/problem',
-                        }
-                    ],
-                }
-            ]
-        },
-        {
-            type: 'category',
-            label: '2. Study',
-            items: [
-                {
-                    type: 'category',
-                    label: '2-1. Tech',
+                    label: '1-1. Tech',
                     items: [
                         {
                             type: 'doc',
@@ -50,7 +33,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
-                    label: '2-2. AI',
+                    label: '1-2. AI',
                     items: [
                         {
                             type: 'doc',
@@ -66,7 +49,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
-                    label: '2-3. DATA',
+                    label: '1-3. DATA',
                     items: [
                         {
                             type: 'doc',
@@ -82,11 +65,11 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
-                    label: '2-4. CS',
+                    label: '1-4. CS',
                     items: [
                         {
                             type: 'category',
-                            label: '2-4-1. Language',
+                            label: '1-4-1. Language',
                             items: [
                                 {
                                     type: 'doc',
@@ -97,7 +80,7 @@ const sidebars: SidebarsConfig = {
                         },
                         {
                             type: 'category',
-                            label: '2-4-2. OS',
+                            label: '1-4-2. OS',
                             items: [
                                 {
                                     type: 'doc',
@@ -118,7 +101,7 @@ const sidebars: SidebarsConfig = {
                         },
                         {
                             type: 'category',
-                            label: '2-4-3. Algorithm',
+                            label: '1-4-3. Algorithm',
                             items: [
                                 {
                                     type: 'doc',
@@ -129,7 +112,7 @@ const sidebars: SidebarsConfig = {
                         },
                         {
                             type: 'category',
-                            label: '2-4-4. DB',
+                            label: '1-4-4. DB',
                             items: [
                                 {
                                     type: 'doc',
@@ -142,7 +125,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
-                    label: '2-5. Design Pattern',
+                    label: '1-5. Design Pattern',
                     items: [
                         {
                             type: 'doc',

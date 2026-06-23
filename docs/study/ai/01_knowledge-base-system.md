@@ -1,8 +1,6 @@
 # Knowledge Base System
-
 ---
-
-## 1. Out-Line
+## 0. 개요
 > Knowledge Base System Overview
 
 Knowledge Base System(KBS)은 대량의 정보를 체계적으로 수집, 저장, 관리하며  
@@ -17,7 +15,7 @@ Knowledge Base System(KBS)은 대량의 정보를 체계적으로 수집, 저장
    4. AI 및 머신러닝 모델 : 자연어 처리 (NLP), 패턴 인식, 데이터 마이닝
 4. 적용 분야 : AI 기반 고객 지원 (Chatbot), 의사결정 지원 시스템 (DSS), 의료 지식 관리 시스템, 기업용 데이터 관리 시스템 (EDM) 등
 
-## 2. Knowledge Base
+## 1. Knowledge Base
 ### 2-1. 정의 및 특징
 > Knowledge Base (KB)는 체계적이고 정형화된 정보 저장소로  
 > 규칙 기반 접근법과 기계 학습 기반 접근법을 혼합하여 정교한 정보 관리를 지원함
@@ -30,7 +28,7 @@ Knowledge Base System(KBS)은 대량의 정보를 체계적으로 수집, 저장
    3. 그래프 기반 (Graph-based) 구조 : 지식 그래프 (Knowledge Graph)를 통한 개체 간 관계 모델링
    4. 온톨로지 (Ontology) 기반 : 의미론적 관계를 활용한 고급 정보 검색 및 추론 지원
 
-## 3. Knowledge Base System
+## 2. Knowledge Base System
 ### 3-1. KBS 아키텍처
 
 > KBS는 정보 수집부터 분석 및 검색까지 다양한 컴포넌트로 구성됨
@@ -53,7 +51,7 @@ graph TD
     AI_NLP -->|Generate Response| Interface
 ````
 
-## 4. Knowledge Base Construction
+## 3. Knowledge Base Construction
 ### 4-1. 구축 방법론
 
 1. 전통적 접근법 : 규칙 기반 데이터 입력 및 수동 관리
@@ -81,7 +79,7 @@ graph TD
 4. 추론 엔진 (Inference Engine): 논리적 규칙을 기반으로 지식을 확장하고 새로운 정보를 도출하는 시스템.
 5. 시맨틱 검색 (Semantic Search): 키워드 기반 검색을 넘어서 문맥 및 의미를 분석하여 관련성을 평가하는 검색 기법.
 
-## 5. Knowledge Base vs Data Base
+## 4. Knowledge Base vs Data Base
 
 ### 5-1. 개념 비교
 
@@ -103,6 +101,6 @@ graph TD
    - 데이터베이스는 정형 데이터를 다루는 데 최적화되어 있지만, 지식 베이스는 정형 및 비정형 데이터를 모두 통합하여 보다 복합적인 분석이 가능
 
 
-## 6. Reference
+## 5. Reference
 1. [OnToText Document](https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-base/)
 
