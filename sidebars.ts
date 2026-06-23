@@ -5,6 +5,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Intro',
+            collapsed: false,
             link: {
                 type: 'doc',
                 id: 'intro',
@@ -14,10 +15,12 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: '1. Study',
+            collapsed: false,
             items: [
                 {
                     type: 'category',
                     label: '1-1. Tech',
+                    collapsed: false,
                     items: [
                         {
                             type: 'doc',
@@ -34,6 +37,7 @@ const sidebars: SidebarsConfig = {
                 {
                     type: 'category',
                     label: '1-2. AI',
+                    collapsed: false,
                     items: [
                         {
                             type: 'doc',
@@ -50,6 +54,7 @@ const sidebars: SidebarsConfig = {
                 {
                     type: 'category',
                     label: '1-3. DATA',
+                    collapsed: false,
                     items: [
                         {
                             type: 'doc',
@@ -66,10 +71,12 @@ const sidebars: SidebarsConfig = {
                 {
                     type: 'category',
                     label: '1-4. CS',
+                    collapsed: false,
                     items: [
                         {
                             type: 'category',
                             label: '1-4-1. Language',
+                            collapsed: false,
                             items: [
                                 {
                                     type: 'doc',
@@ -81,6 +88,7 @@ const sidebars: SidebarsConfig = {
                         {
                             type: 'category',
                             label: '1-4-2. OS',
+                            collapsed: false,
                             items: [
                                 {
                                     type: 'doc',
@@ -102,6 +110,7 @@ const sidebars: SidebarsConfig = {
                         {
                             type: 'category',
                             label: '1-4-3. Algorithm',
+                            collapsed: false,
                             items: [
                                 {
                                     type: 'doc',
@@ -113,6 +122,7 @@ const sidebars: SidebarsConfig = {
                         {
                             type: 'category',
                             label: '1-4-4. DB',
+                            collapsed: false,
                             items: [
                                 {
                                     type: 'doc',
@@ -126,6 +136,7 @@ const sidebars: SidebarsConfig = {
                 {
                     type: 'category',
                     label: '1-5. Design Pattern',
+                    collapsed: false,
                     items: [
                         {
                             type: 'doc',
@@ -134,22 +145,24 @@ const sidebars: SidebarsConfig = {
                         }
                     ],
                 },
-            ]
-        },
-        {
-            type: 'category',
-            label: '2. Fast Api',
-            items: [
                 {
                     type: 'category',
-                    label: '2-1. FastAPI 실전 시리즈',
+                    label: '2. Fast Api',
+                    collapsed: false,
                     items: [
                         {
-                            type: 'doc',
-                            label: '1. Layered Architecture와 DI 패턴',
-                            id: 'fastapi/series/fast-api-layered'
-                        }
-                    ],
+                            type: 'category',
+                            label: '2-1. FastAPI 실전 시리즈',
+                            collapsed: false,
+                            items: [
+                                {
+                                    type: 'doc',
+                                    label: '1. Layered Architecture와 DI 패턴',
+                                    id: 'fastapi/series/fast-api-layered'
+                                }
+                            ],
+                        },
+                    ]
                 },
             ]
         },
