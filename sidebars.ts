@@ -28,9 +28,27 @@ const sidebars: SidebarsConfig = {
                             id: 'study/tech/test-container'
                         },
                         {
-                            type: 'doc',
+                            type: 'category',
                             label: '2. Fast Api',
-                            id: 'study/tech/fast-api'
+                            collapsed: false,
+                            link: {
+                                type: 'doc',
+                                id: 'study/tech/fast-api'
+                            },
+                            items: [
+                                {
+                                    type: 'category',
+                                    label: '2-1. FastAPI 실전 시리즈',
+                                    collapsed: false,
+                                    items: [
+                                        {
+                                            type: 'doc',
+                                            label: '1. Layered Architecture와 DI 패턴',
+                                            id: 'fastapi/series/fast-api-layered'
+                                        }
+                                    ],
+                                },
+                            ]
                         }
                     ],
                 },
@@ -144,25 +162,6 @@ const sidebars: SidebarsConfig = {
                             id: 'study/design_pattern/solid',
                         }
                     ],
-                },
-                {
-                    type: 'category',
-                    label: '2. Fast Api',
-                    collapsed: false,
-                    items: [
-                        {
-                            type: 'category',
-                            label: '2-1. FastAPI 실전 시리즈',
-                            collapsed: false,
-                            items: [
-                                {
-                                    type: 'doc',
-                                    label: '1. Layered Architecture와 DI 패턴',
-                                    id: 'fastapi/series/fast-api-layered'
-                                }
-                            ],
-                        },
-                    ]
                 },
             ]
         },
